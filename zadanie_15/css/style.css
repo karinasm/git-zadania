@@ -13,3 +13,27 @@
 #about_us{
     background-color: blueviolet;
 }
+#kwadrat1{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    display: inline-block;
+}
+#kwadrat2{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    display: inline-block;
+}
+#kwadrat3{
+    height: 50px;
+    width: 50px;
+    background-color:yellow;
+    display: inline-block;
+}
+#kwadrat4{
+    height: 50px;
+    width: 50px;
+    background-color: rebeccapurple;
+    display: inline-block;
+}
