@@ -1,11 +1,30 @@
 body{
     font-family: Verdana;
-}
-.container{
-    text-align: center;
     text-transform: uppercase;
+} 
+@media(max-width:992px)
+{
+    #header_1 .glowna{
+        text-align: center; 
+        background-image: url('../img/man-1.jpg');
+        background-size: 50%;
+    }
+} 
+ @media(min-width:992px)
+{
+    #header_1 .glowna{
+        text-align: right;
+        background-image: url('../img/man-2.jpg');
+        color: white;
+        background-size: 70%;
+    }
 }
-img{
-    width: 550px;
-    height: 50%;
-}
+@media(min-width:1170px)
+{
+    #header_1 .glowna{
+        text-align: left;
+        background-image: url('../img/man-1.jpg');
+        color: white;
+        background-size:100%;
+    }
+}   
