@@ -1,13 +1,15 @@
 body{
     font-family: Verdana;
     text-transform: uppercase;
+    margin: 0;
 } 
 @media(max-width:992px)
 {
     #header_1 .glowna{
         text-align: center; 
-        background-image: url('../img/man-1.jpg');
-        background-size: 50%;
+        
+        height: 50vh;
+        background-size: cover;
     }
 } 
  @media(min-width:992px)
@@ -16,15 +18,18 @@ body{
         text-align: right;
         background-image: url('../img/man-2.jpg');
         color: white;
-        background-size: 70%;
+        height: 70vh;
+        background-size: cover;
     }
 }
 @media(min-width:1170px)
 {
     #header_1 .glowna{
         text-align: left;
+        left: 100px;
         background-image: url('../img/man-1.jpg');
         color: white;
-        background-size:100%;
+        height: 100vh;
+        background-size: cover;
     }
 }   

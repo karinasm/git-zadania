@@ -1,134 +1,100 @@
 
  @media(min-width:992px){
-    .container{
-        text-transform: uppercase;
-        text-align: center;
-        color: white;
+    body{
         display: flex;
-        justify-content: center;
-        height: 400px;
-        width: 75%;
-  }
-    header{
-        background-color: red;
-        width: 75%;
-        height: 20%;
+        flex-wrap: wrap;
+        color:white;
         text-transform: uppercase;
         text-align: center;
-        color: white;
-        padding: 5px 0;
     }
-    .container .item_1{
-        background-color:lightseagreen;
+    header{
+        flex-basis: 100%;
+        background-color: red;
     }
-    .container .item_2{
+    .a1{
+        flex-basis: 20%;
         background-color:green;
     }
-    .container .item_3{
-        background-color:palevioletred;
+    .a2{
+        flex-basis: 20%;
+        background-color: violet;
+    }
+    article{
+        flex-basis: 60%;
+        background-color: cadetblue;
     }
     footer{
-        background-color: darkgray;
-        width: 75%;
-        height: 20%;
-        text-transform: uppercase;
-        text-align: center;
-        color: white;
-        padding: 5px 0;
+        flex-basis: 100%;
+        background-color: blueviolet;
     }
  }
  @media(max-width:992px){
-    .container{
-        text-transform: uppercase;
-        text-align: center;
-        color: white;
+    body{
         display: flex;
-        justify-content: center;
-        height: 400px;
-        width: 75%;
-  }
-    header{
-        background-color: red;
-        width: 75%;
-        height: 20%;
+        flex-wrap: wrap;
+        color:white;
         text-transform: uppercase;
         text-align: center;
-        color: white;
-        padding: 5px 0;
     }
-    .container .item_1{
-        background-color:lightseagreen;
-        flex:4;
+    header{
+        flex-basis: 100%;
+        background-color: red;
+        flex-grow: 1;
         order:0;
-        flex-basis: 30%;
     }
-    .container .item_2{
+    .a1{
+        flex-basis: 100%;
         background-color:green;
-        flex:6;
-        order:2;
-        flex-basis: 50%;
+        flex-grow: 5;
+        order:3;
     }
-    .container .item_3{
-        background-color:palevioletred;
-        flex:1;
-        order:1;
+    .a2{
         flex-basis: 20%;
+        background-color: violet;
+        order:2;
+    }
+    article{
+        flex-basis: 80%;
+        background-color: cadetblue;
+        order:1;
     }
     footer{
-        background-color: darkgray;
-        width: 75%;
-        height: 20%;
-        text-transform: uppercase;
-        text-align: center;
-        color: white;
-        padding: 5px 0;
+        flex-basis: 100%;
+        background-color: blueviolet;
+        order:4;
     }
  }
  @media(max-width:768px){
-    .container{
-        text-transform: uppercase;
-        text-align: center;
-        color: white;
+    body{
         display: flex;
-        justify-content: center;
-        height: 400px;
-        width: 75%;
         flex-direction: column;
-  }
-    header{
-        background-color: red;
-        width: 75%;
-        height: 20%;
+        color:white;
         text-transform: uppercase;
         text-align: center;
-        color: white;
-        padding: 5px 0;
     }
-    .container .item_1{
-        background-color:lightseagreen;
-        height: 50%;
-        width: 100%;
+    header{
+        flex-basis: 15%;
+        background-color: red;
         order:0;
     }
-    .container .item_2{
+    .a1{
+        flex-basis: 35%;
         background-color:green;
-        height: 50%;
-        width: 100%;
-        order:1;
-    }
-    .container .item_3{
-        background-color:palevioletred;
-        height: 50%;
-        width: 100%;
         order:2;
     }
+    .a2{
+        flex-basis: 35%;
+        background-color: violet;
+        order:3;
+    }
+    article{
+        flex-basis: 35%;
+        background-color: cadetblue;
+        order:1;
+    }
     footer{
-        background-color: darkgray;
-        width: 75%;
-        height: 20%;
-        text-transform: uppercase;
-        text-align: center;
-        color: white;
-        padding: 5px 0;
+        flex-basis: 15%;
+        background-color: blueviolet;
+        order:4;
     }
  }
